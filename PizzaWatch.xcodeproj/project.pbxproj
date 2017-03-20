@@ -19,6 +19,12 @@
 		5780FE701E78EFDB005A96B3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FE6F1E78EFDB005A96B3 /* InterfaceController.swift */; };
 		5780FE721E78EFDB005A96B3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FE711E78EFDB005A96B3 /* ExtensionDelegate.swift */; };
 		5780FE741E78EFDB005A96B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5780FE731E78EFDB005A96B3 /* Assets.xcassets */; };
+		5780FE861E78F81A005A96B3 /* MasaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FE851E78F81A005A96B3 /* MasaController.swift */; };
+		5780FE881E78F837005A96B3 /* TamanioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FE871E78F837005A96B3 /* TamanioController.swift */; };
+		5780FE8A1E78F84B005A96B3 /* QuesoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FE891E78F84B005A96B3 /* QuesoController.swift */; };
+		5780FE8C1E78F866005A96B3 /* IngredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FE8B1E78F866005A96B3 /* IngredientesController.swift */; };
+		5780FE8E1E78F877005A96B3 /* ConfirmaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FE8D1E78F877005A96B3 /* ConfirmaController.swift */; };
+		5780FE921E78FA36005A96B3 /* pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780FE911E78FA36005A96B3 /* pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +86,12 @@
 		5780FE711E78EFDB005A96B3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		5780FE731E78EFDB005A96B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5780FE751E78EFDB005A96B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5780FE851E78F81A005A96B3 /* MasaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaController.swift; sourceTree = "<group>"; };
+		5780FE871E78F837005A96B3 /* TamanioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TamanioController.swift; sourceTree = "<group>"; };
+		5780FE891E78F84B005A96B3 /* QuesoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoController.swift; sourceTree = "<group>"; };
+		5780FE8B1E78F866005A96B3 /* IngredientesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesController.swift; sourceTree = "<group>"; };
+		5780FE8D1E78F877005A96B3 /* ConfirmaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmaController.swift; sourceTree = "<group>"; };
+		5780FE911E78FA36005A96B3 /* pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +162,12 @@
 				5780FE711E78EFDB005A96B3 /* ExtensionDelegate.swift */,
 				5780FE731E78EFDB005A96B3 /* Assets.xcassets */,
 				5780FE751E78EFDB005A96B3 /* Info.plist */,
+				5780FE851E78F81A005A96B3 /* MasaController.swift */,
+				5780FE871E78F837005A96B3 /* TamanioController.swift */,
+				5780FE891E78F84B005A96B3 /* QuesoController.swift */,
+				5780FE8B1E78F866005A96B3 /* IngredientesController.swift */,
+				5780FE8D1E78F877005A96B3 /* ConfirmaController.swift */,
+				5780FE911E78FA36005A96B3 /* pizza.swift */,
 			);
 			path = "PizzaWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -299,7 +317,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5780FE721E78EFDB005A96B3 /* ExtensionDelegate.swift in Sources */,
+				5780FE861E78F81A005A96B3 /* MasaController.swift in Sources */,
+				5780FE8E1E78F877005A96B3 /* ConfirmaController.swift in Sources */,
+				5780FE8C1E78F866005A96B3 /* IngredientesController.swift in Sources */,
+				5780FE921E78FA36005A96B3 /* pizza.swift in Sources */,
+				5780FE8A1E78F84B005A96B3 /* QuesoController.swift in Sources */,
 				5780FE701E78EFDB005A96B3 /* InterfaceController.swift in Sources */,
+				5780FE881E78F837005A96B3 /* TamanioController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
